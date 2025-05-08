@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #0B192C;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  padding: 2rem 1rem;
+}
+#title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  margin: 2rem 0;
+}
+#ProjectsContainer {
+  width: 90%;
+  margin-left: 2.5%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.ProjectCard {
+  width: 100%;
+  max-width: 400px;
+  background-color: #141414;
+  color: white;
+  border-radius: 10px;
+  margin: 1rem auto;
+  padding: 1rem;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.ProjectCard:hover {
+  background-color: #1f1f1f;
+}
+.ProjectCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.ProjectClick {
+  text-decoration: none;
+}
+.Topic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 90%;
+  margin: 2rem auto;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.Topic img.ProjectImage {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+}
+.Section-title {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+.Section-text {
+  font-size: 1.1rem;
+  color: #333;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  padding: 2rem 1rem;
+}
+ul {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
